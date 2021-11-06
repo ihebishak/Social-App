@@ -18,8 +18,8 @@ public class Post {
     private int likes;
     private int dislike;
     private int share;
-    private Boolean fav;
 
+    private Boolean fav;
     @ManyToOne(fetch = FetchType.EAGER)
     @JsonIgnore
     private User user;
